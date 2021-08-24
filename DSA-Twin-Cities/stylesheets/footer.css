@@ -1,0 +1,29 @@
+.panel-footer {
+    background-color: #222222;
+    color: #afafaf;
+    text-align: center;
+}
+
+.footer-copyright {
+    font-size: 9px;
+    text-align: center;
+}
+
+#rss {
+    color: orange;
+    font-size: 40px;
+}
+
+#rss:hover {
+    color: red;
+}
+
+#info {
+    font-size: 40px;
+    color: #afafaf;
+}
+
+#info:hover {
+    color: white;
+}
+

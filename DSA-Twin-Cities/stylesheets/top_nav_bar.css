@@ -1,0 +1,20 @@
+
+.navbar {
+    margin: auto;
+    max-width: 70%;
+    font-size: 17px;
+    border-radius: 0px;
+    border-color: transparent;
+    padding: 0px;
+}
+
+.outer-bar {
+    width: 100%;
+    margin: auto;
+    background-color: #222222;
+
+}
+
+.white {
+    color: white;
+}

@@ -1,0 +1,42 @@
+
+.content {
+    max-width: 70%;
+    margin: auto;
+    background: #f0ecec;
+    padding: 10px;
+    padding-bottom: 50px;
+    height: 100%;
+}
+
+.page_title {
+    color: lightseagreen;
+}
+
+#map{
+    height: 400px;
+    width: 100%;
+}
+
+#group_members th,td{
+    padding: 5px;
+}
+
+#city_weather tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#city_weather tr:hover {
+    background-color: #ddd;
+}
+
+#city_weather #w_type {
+    font-weight: bold;
+}
+
+#city_weather #night {
+    background-color: #a2a2a2;
+}
+
+#city_weather #day {
+    background-color: #DAEBF5;
+}

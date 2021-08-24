@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+#####################################################################
+# file    : cities.xml                                              #
+# purpose : xml data refactoring                                    #
+# cities  : Torbay & Hamelin (Cities)                               #
+#####################################################################
+TODO: move poi into cities
+-->
+<twinning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cities.xsd">
+    <image>../images/banner.png</image>
+    <description>Torbay has a historic link with Hamelin -
+        there is evidence that both cities were founded over 1,000 years ago. 
+		Fossils dating back to the Paleolithic have been found in Torbay, 
+		and in Hamelin since 800 B.C., while there was a monastery.</description>
+    <description_source>https://www.visitsouthdevon.co.uk/places/torquay-p2867463</description_source>
+
+    <cities>
+        <city woeid="3991">
+            <name>Torbay</name>
+            <country>United Kingdom</country>
+            <country_code>GBR</country_code>
+            <latitude>50.4523</latitude>
+            <longitude>-3.5568</longitude>
+            <description>Torbay is a borough in Devon, England, administered by the unitary authority of Torbay Council. It consists of 62.87 square kilometres (24.27 sq mi) of land, spanning the towns of Torquay, Paignton and Brixham, against an east-facing natural harbour Tor Bay of the Lyme Bay sheltered part of the English Channel.</description>
+            <description_source>https://en.wikipedia.org/wiki/Torbay</description_source>
+            <population>130959</population>
+            <area>24.27</area>
+            <currency>Pound Sterling (GBP)</currency>
+            <population_density>1140</population_density>
+            <website>https://www.torbay.gov.uk/</website>
+            <wiki>https://en.wikipedia.org/wiki/Torbay</wiki>
+            <google_maps>https://www.google.co.uk/maps/place/Torbay/</google_maps>
+            <image>https://www.torbay.gov.uk/media/13501/torre-abbey-banner.jpg</image>
+            <image_alt>Ariel shot of Torbay.</image_alt>
+            <weather>
+                <current_weather>
+                    <temperature>291.07</temperature>
+                    <humidity>87</humidity>
+                    <wind_speed>8.23</wind_speed>
+                    <wind_direction>270</wind_direction>
+                    <icon>04d</icon>
+                    <description>overcast clouds</description>
+                    <weather_time>1629800548</weather_time>
+                    <weather_saved>1629800548</weather_saved>
+                </current_weather>
+                <forecast_weather>
+                    <temperature>290.97</temperature>
+                    <humidity>82</humidity>
+                    <wind_speed>6.63</wind_speed>
+                    <wind_direction>249</wind_direction>
+                    <icon>04d</icon>
+                    <description>overcast clouds</description>
+                    <weather_time>1629806400</weather_time>
+                    <weather_saved>1629800549</weather_saved>
+                </forecast_weather>
+            </weather>
+			
+            <places_of_interest>
+                <place_of_interest P_ID="1" category="Village">
+                    <name>Babbacombe model village</name>
+                    <address> Hampton Ave, Babbacombe, Torquay TQ1 3LA, United Kingdom</address>
+                    <capacity/>
+                    <latitude>50.482466</latitude>
+                    <longitude>-3.520361</longitude>
+                    <website>https://www.model-village.co.uk/</website>
+                    <wiki>https://en.wikipedia.org/wiki/Babbacombe_Model_Village</wiki>
+                    <description>A 57 year old miniature village with over 400 individual models, with architecture ranging from Medieval to Victorian. This miniature marvel is encased by Babbacombe''s award winning gardens, spanning 4.5 acres.</description>
+                    <description_source>https://www.englishriviera.co.uk/things-to-do/babbacombe-model-village-p142123</description_source>
+                    <short_description>A 57-year-old model village.</short_description>
+                    <image>https://media-cdn.tripadvisor.com/media/photo-s/0b/87/c3/2f/this-is-how-mesmerising.jpg</image>
+                    <image_alt>Ariel shot of the village showing the gardens and landscape.</image_alt>
+                    <map_icon>sight.png</map_icon>
+                </place_of_interest>
+                
+				<place_of_interest P_ID="2" category="Cavern">
+                    <name>Kents Cavern</name>
+                    <address>91 Ilsham Rd, Torquay TQ1 2JF, United Kingdom</address>
+				    <capacity/>
+                    <latitude>50.46786</latitude>
+                    <longitude>-3.504109</longitude>
+                    <website>https://www.kents-cavern.co.uk/</website>
+                    <wiki>https://en.wikipedia.org/wiki/Kents_Cavern</wiki>
+                    <description>A labyrinth once occupied first by Neanderthals and some of the very first British populace. The caves are part of the English Riviera UNESCO Global Geopark and is known as one of Britain's oldest known prehistoric sites. Within the cave system, visitors can view prehistoric fossils and cave formations.</description>
+                    <description_source>https://en.wikipedia.org/wiki/Kents_Cavern</description_source>
+                    <short_description>A prehistoric cave system.</short_description>
+                    <image>https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Torquay2.jpg/330px-Torquay2.jpg</image>
+                    <image_alt>Interior view of Kent's Cavern.</image_alt>
+                    <map_icon>cave.png</map_icon>
+                </place_of_interest>
+				
+                <place_of_interest P_ID="3" category="Museum">
+                    <name>Torre Abbey museum</name>
+                    <address>The King's Drive, Torquay TQ2 5JE, United Kingdom</address>
+                    <capacity>200</capacity>
+                    <latitude>50.4627101</latitude>
+                    <longitude>-3.5411543</longitude>
+                    <website>https://www.torre-abbey.org.uk/</website>
+                    <wiki>https://en.wikipedia.org/wiki/Torre_Abbey</wiki>
+                    <description>Torbay's most historic building dating back to 1196, encased within garden and parkland spanning across 18 acres. The historic building also hosts a multi-award wining art collection with over 600 works of art from the 18th century to the present day.</description>
+                    <description_source>https://en.wikipedia.org/wiki/Torre_Abbey</description_source>
+                    <short_description>A 450 acre country park.</short_description>
+                    <image>https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Torre_Abbey_side_entrance3.jpg/330px-Torre_Abbey_side_entrance3.jpg</image>
+                    <image_alt>Torre Abbey, side entrance</image_alt>
+                    <map_icon>historical_museum.png</map_icon>
+                </place_of_interest>
+				
+				<place_of_interest P_ID="4" category="Museum">
+                    <name>Cockington Court</name>
+                    <address>Cockington Ln, Torquay TQ2 6XA, United Kingdom</address>
+                    <capacity>300</capacity>
+                    <latitude>50.463301</latitude>
+                    <longitude>-3.559394</longitude>
+                    <website>https://www.cockingtoncourt.org/</website>
+                    <wiki>https://en.wikipedia.org/wiki/Cockington</wiki>
+                    <description>A quaint 450 acre country park with scenic garden landscapes, parkland and woodland. Within the vast countryside landscape resides a historic country manor house governed by the Torbay Coast and Countryside Trust.</description>
+                    <description_source>https://en.wikipedia.org/wiki/Cockington</description_source>
+                    <short_description>Centuries-old country estate.</short_description>
+                    <image>https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Cockington_Court_Craft_Centre_-_geograph.org.uk_-_49472.jpg/330px-Cockington_Court_Craft_Centre_-_geograph.org.uk_-_49472.jpg</image>
+                    <image_alt>Cockington Court Craft Centre</image_alt>
+                    <map_icon>historical_museum.png</map_icon>
+                </place_of_interest>
+				
+                <place_of_interest P_ID="5" category="Beach">
+                    <name>Oddicombe beach</name>
+                    <address>Babbacombe Downs Rd, Torquay TQ1 3LS, United Kingdom</address>
+                    <capacity/>
+                    <latitude>50.478308</latitude>
+                    <longitude>-3.513335</longitude>
+                    <website>https://www.englishriviera.co.uk/things-to-do/oddicombe-beach-torquay-p227603</website>
+                    <wiki>https://en.wikipedia.org/wiki/Oddicombe_Beach</wiki>
+                    <description>A stunning beach part of the English Riviera UNESCO Global Geopark, that offers fun for all the family. The beach not only offers great views, but also offers watersports, beach shops and a café.</description>
+                    <description_source>https://en.wikipedia.org/wiki/Oddicombe_Beach</description_source>
+                    <short_description>A popular beach on the english riviera.</short_description>
+                    <image>https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Oddicombe.jpg/330px-Oddicombe.jpg</image>
+                    <image_alt>Oddicombe Beach from Babbacombe Downs.</image_alt>
+                    <map_icon>beach.png</map_icon>
+                </place_of_interest>
+				
+				<place_of_interest P_ID="6" category="Train">
+                    <name>Babbacombe Cliff Railway</name>
+                    <address>Babbacombe Downs Rd, Torquay TQ1 3LF, United Kingdom</address>
+                    <capacity/>
+                    <latitude>50.480489</latitude>
+                    <longitude>-3.517774</longitude>
+                    <website>https://www.babbacombecliffrailway.co.uk/</website>
+                    <wiki>https://en.wikipedia.org/wiki/Babbacombe_Cliff_Railway</wiki>
+                    <description>A 720 foot long cliff railway that links babbacombe Downs to oddicombe beach. The cliff railway is run by a community interest company, and gives rides to nearly 100,000 people per year.</description>
+                    <description_source>https://en.wikipedia.org/wiki/Babbacombe_Cliff_Railway</description_source>
+                    <short_description>A cliff lift to Oddicombe beach.</short_description>
+                    <image>https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Babbacombe_Cliff_Railway_2.JPG/330px-Babbacombe_Cliff_Railway_2.JPG</image>
+                    <image_alt>The lower station of the cliff railway.</image_alt>
+                    <map_icon>train.png</map_icon>
+                </place_of_interest>
+				
+				<place_of_interest P_ID="7" category="University">
+                    <name>South Devon University</name>
+                    <address>Long Rd, Paignton TQ4 7EJ, United Kingdom</address>
+                    <capacity/>
+                    <latitude>50.414646</latitude>
+                    <longitude>-3.587847</longitude>
+                    <website>https://www.ucsd.ac.uk/</website>
+                    <wiki>https://en.wikipedia.org/wiki/South_Devon_College</wiki>
+                    <description>A TEF gold rated university that offers a wide range of programmes of study, varying from the sciences to art. The university also has relations with the University of Plymouth, in partnership they provide higher education programmes.</description>
+                    <description_source>https://en.wikipedia.org/wiki/South_Devon_College</description_source>
+                    <short_description>A TEF gold rated university.</short_description>
+                    <image>https://www.plymouth.ac.uk/uploads/production/media_asset/file/1/1644/medium_South_Devon_College_2.jpg</image>
+                    <image_alt>South Devon College</image_alt>
+                    <map_icon>university.png</map_icon>
+                </place_of_interest>
+				
+                <place_of_interest P_ID="8" category="Four star hotel">
+                    <name>The Imperial hotel</name>
+                    <address>Parkhill Rd, Torquay TQ1 2DG, United Kingdom</address>
+                    <capacity>1500</capacity>
+                    <latitude>50.457237</latitude>
+                    <longitude>-3.521495</longitude>
+                    <website>https://www.theimperialtorquay.co.uk/</website>
+                    <wiki/>
+                    <description>The magnificent 19th Century Victorian four-star hotel commands a cliff top position, overlooking Torbay and the beautiful Devon coast. A historic property, built in the town’s Victorian period, the hotel is a reminder of why this part of Devon became known as the English Riviera. </description>
+                    <description_source>https://www.theimperialtorquay.co.uk/about-us</description_source>
+                    <short_description>The foundation stone of the hotel was laid on 28th March 1864 on the site of the Royal Hotel plus two nearby villas. The hotel only settled on its name in May 1866 when the first advertisements were due to appear in the national newspapers and “Imperial” was a popular name for Victorian seaside hotels. </short_description>
+                    <image>https://www.theimperialtorquay.co.uk/images/the-imperial-hotel.jpg</image>
+                    <image_alt>The view of the Imperial Hotel.</image_alt>
+                    <map_icon>hotel_4stars.png</map_icon>
+                </place_of_interest>
+				
+				 <place_of_interest P_ID="9" category="Theatre">
+                    <name>Princess Theatre</name>
+                    <address>Torbay Rd, Torquay TQ2 5EZ, United Kingdom</address>
+                    <capacity>1500</capacity>
+                    <latitude>50.461342</latitude>
+                    <longitude>-3.530137</longitude>
+                    <website>https://www.atgtickets.com/venues/princess-theatre-torquay/</website>
+                    <wiki>https://en.wikipedia.org/wiki/Princess_Theatre_(Torquay)</wiki>
+                    <description>South Devon's largest theatre with 1,500 seats, that have hosted artists like the Beatles and comedians like Dawn French. The theatre also hosts operas, musicals, pantomimes; concerts and comedy shows. </description>
+                    <description_source>https://en.wikipedia.org/wiki/Princess_Theatre_(Torquay)</description_source>
+                    <short_description>A 1,500 seat theatre.</short_description>
+                    <image>https://upload.wikimedia.org/wikipedia/commons/e/e4/Princess_Theatre%2C_Torquay_-_geograph.org.uk_-_224516.jpg</image>
+                    <image_alt>The Princess Theatre, Torquay</image_alt>
+                    <map_icon>theatre.png</map_icon>
+                </place_of_interest>
+				
+                <place_of_interest P_ID="10" category="Zoo">
+                    <name>Paignton zoo</name>
+                    <address>Totnes Rd, Paignton TQ4 7EU, United Kingdom</address>
+                    <capacity/>
+                    <latitude>50.428819</latitude>
+                    <longitude>-3.584027</longitude>
+                    <website>https://www.paigntonzoo.org.uk/</website>
+                    <wiki>https://en.wikipedia.org/wiki/Paignton_Zoo</wiki>
+                    <description>A zoo apart of the South West Environmental Parks and is owned by the Wild Planet Trust . The zoo offers over 2000 animals spread over 80 acres. The zoo also offers a wide variety of activities other than observing the animals, such as a jungle themed railway, a nature trail and play areas.</description>
+                    <description_source>https://en.wikipedia.org/wiki/Paignton_Zoo</description_source>
+                    <short_description>A zoo with over 2000 animals.</short_description>
+                    <image>https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Paignton-zoo-logo.png/300px-Paignton-zoo-logo.png</image>
+                    <image_alt>The Paignton Zoo's logo</image_alt>
+                    <map_icon>zoo.png</map_icon>
+                </place_of_interest>
+               
+            </places_of_interest>
+        </city>
+
+        <city woeid="656972">
+            <name>Hamelin</name>
+            <country>Germany</country>
+            <country_code>DEU</country_code>
+            <latitude>52.105121</latitude>
+            <longitude>9.371729</longitude>
+            <description>A town best known for the Grimm Brothers's Pied Piper of Hamelin.</description>
+            <description_source>https://en.wikipedia.org/wiki/Hameln-Pyrmont</description_source>
+            <population>57342</population>
+            <area>796</area>
+            <currency>Euro</currency>
+            <population_density>190</population_density>
+            <website>https://www.hameln.de/en/</website>
+            <wiki>https://en.wikipedia.org/wiki/Hameln-Pyrmont</wiki>
+            <google_maps>https://www.google.com/maps/search/hameln+germany+website/@51.8712914,7.3887844,7z</google_maps>
+            <image>https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Hameln_Panorama_3-2006_small.jpg/375px-Hameln_Panorama_3-2006_small.jpg</image>
+            <image_alt>Panorama of Hamelin.</image_alt>
+            <weather>
+                <current_weather>
+                    <temperature>283.15</temperature>
+                    <humidity>10</humidity>
+                    <wind_speed>0.9</wind_speed>
+                    <wind_direction>320</wind_direction>
+                    <icon>03n</icon>
+                    <description>scattered clouds</description>
+                    <weather_time>1916686800</weather_time>
+                    <weather_saved>1916690000</weather_saved>
+                </current_weather>
+                <forecast_weather>
+                    <temperature>285.15</temperature>
+                    <humidity>76</humidity>
+                    <wind_speed>6.6</wind_speed>
+                    <wind_direction>219.006</wind_direction>
+                    <icon>01n</icon>
+                    <description>clear sky</description>
+                    <weather_time>1917694000</weather_time>
+                    <weather_saved>1917690000</weather_saved>
+                </forecast_weather>
+            </weather>
+			
+            <places_of_interest>
+                <place_of_interest P_ID="11" category="Market">
+                    <name>Hamelin Old Town</name>
+                    <address>Hamelin, Germany</address>
+                    <capacity/>
+                    <latitude>52.10387380692055</latitude>
+                    <longitude>9.356402610399527</longitude>
+                    <website>https://www.hameln.de/en/</website>
+                    <wiki>https://en.wikipedia.org/wiki/Hamelin</wiki>
+                    <description>A fairy tale esque street with a connection to the Pied Piper of Hamelin, a story written by the Brothers Grimm. The old town is bustling with street cafés, restaurants and beer gardens. One of its most famous summer attractions is the re-enactment on the Pied Piper of Hamelin.</description>
+                    <description_source>https://en.wikipedia.org/wiki/Hamelin</description_source>
+                    <short_description>A fairytale esque street with a connection to the Pied Piper.</short_description>
+                    <image>https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Hamelin_2.jpg/250px-Hamelin_2.jpg</image>
+                    <image_alt>St.Nikolai-Kirche Rinteln.</image_alt>
+                    <map_icon>market.png</map_icon>
+                </place_of_interest>
+
+                <place_of_interest P_ID="12" category="Museum">
+                    <name>Museum Hameln</name>
+                    <address>Osterstraße 8B, 31785 Hameln, Germany</address>
+                    <capacity/>
+                    <latitude>52.10464517975422</latitude>
+                    <longitude>9.358433263980148</longitude>
+                    <website>https://museumhameln.de/</website>
+                    <wiki>https://de.wikipedia.org/wiki/Museum_Hameln</wiki>
+                    <description>A museum with over 1300 artefacts showcasing the history and culture of Hamelin and the Weser Uplands, but with the Pied Piper of Hamelin as its focal point.</description>
+                    <description_source>https://de.wikipedia.org/wiki/Museum_Hameln</description_source>
+                    <short_description>A museum showcasing the history of the Pied Piper.</short_description>
+                    <image>https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Die_Museumsgeb%C3%A4ude_der_Stadt_Hameln.jpeg/330px-Die_Museumsgeb%C3%A4ude_der_Stadt_Hameln.jpeg</image>
+                    <image_alt>The museum buildings in the form of the Stiftsherrenhaus (left) and Leisthaus (right).</image_alt>
+                    <map_icon>historical_museum.png</map_icon>
+                </place_of_interest>
+
+                <place_of_interest P_ID="13" category="Museum">
+                    <name>Hochzeitshaus Hamel</name>
+                    <address>Osterstraße 2, 31785 Hameln, Germany</address>
+                    <capacity/>
+                    <latitude>52.10466254938741</latitude>
+                    <longitude>9.357097699562301</longitude>
+                    <website>https://www.hameln.de/de/entdecken-erleben/altstadt-und-weserbergland/altstadt-und-stadtgeschichte/altstadtrundgang/</website>
+                    <wiki>https://de.wikipedia.org/wiki/Hochzeitshaus_(Hameln)</wiki>
+                    <description>A historical house that features a unique clockwork that at the hours of 1.05pm, 3.35pm, and 5.35pm, shows the tale of the Pied Piper of Hamelin.</description>
+                    <description_source>https://de.wikipedia.org/wiki/Hochzeitshaus_(Hameln)</description_source>
+                    <short_description>A historic building with a famous clock.</short_description>
+                    <image>https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Hameln_Hochzeitshaus.jpg/330px-Hameln_Hochzeitshaus.jpg</image>
+                    <image_alt>Wedding house with chimes. In the center of the facade is the bronze door that opens for the puppet play.</image_alt>
+                    <map_icon>historical_museum.png</map_icon>
+                </place_of_interest>
+				
+				<place_of_interest P_ID="14" category="Statue">
+                    <name>Pied Piper Statue</name>
+                    <address>Osterstraße 15, 31785 Hameln, Germany</address>
+                    <capacity/>
+                    <latitude>52.10460794942375</latitude>
+                    <longitude>9.35947459956232</longitude>
+                    <website>https://www.tripadvisor.com/Attraction_Review-g198595-d4263342-Reviews-Pied_Piper_Statue-Hameln_Lower_Saxony.html</website>
+                    <wiki>https://en.wikipedia.org/wiki/Pied_Piper_of_Hamelin</wiki>
+                    <description>There are many different Pied Piper statues all across the city of Hamelin, but this one is one of the most noteworthy because it can be found next to the Town Hall.</description>
+                    <description_source>https://en.wikipedia.org/wiki/Pied_Piper_of_Hamelin</description_source>
+                    <short_description>A statue of the infamous Pied Piper.</short_description>
+                    <image>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Hameln1.jpg/450px-Hameln1.jpg</image>
+                    <image_alt>Postcard "Gruss aus Hameln" featuring the Pied Piper of Hamelin, 1902</image_alt>
+                    <map_icon>statue.png</map_icon>
+                </place_of_interest>
+				
+				<place_of_interest P_ID="15" category="Statue">
+                    <name>Rattenfänger Figuren- und Glockenspiel</name>
+                    <address>Hochzeitshausterasse, Osterstraße 2, 31785 Hameln, Germany</address>
+                    <capacity/>
+                    <latitude>52.10055874283853</latitude>
+                    <longitude>9.391925600000002</longitude>
+                    <website>http://www.rattenfaenger-hameln.de/</website>
+                    <wiki>https://de.wikipedia.org/wiki/Rattenf%C3%A4nger_von_Hameln</wiki>
+                    <description>This is a clockwork representation of the tale of the Pied Piper of Hamelin and is part of the Pied Piper of Hamelin tour Rattenfänger Figuren- und Glockenspiel.</description>
+                    <description_source>https://de.wikipedia.org/wiki/Rattenf%C3%A4nger_von_Hameln</description_source>
+                    <short_description>A clockwork of the Pied Piper.</short_description>
+                    <image>https://upload.wikimedia.org/wikipedia/commons/f/f4/Rattenf%C3%A4nger_Stadtf%C3%BChrung_Hameln.jpg</image>
+                    <image_alt>Stadtführung in Hameln durch den Rattenfänger von Hameln.</image_alt>
+                    <map_icon>statue.png</map_icon>
+                </place_of_interest>
+				
+				<place_of_interest P_ID="16" category="Sight">
+                    <name>Hameln Marketing und Tourismus GmbH</name>
+                    <address>Deisterallee 1, 31785 Hameln, Germany</address>
+                    <capacity/>
+                    <latitude>52.10473401895087</latitude>
+                    <longitude>9.361982969625386</longitude>
+                    <website>https://www.hameln.de/de/entdecken-erleben/service-prospekte/hmt-und-stadtmarketing-verein/</website>
+                    <wiki/>
+                    <description>The Hamelin information centre which offers a range of tours, with the most noteworthy being the Pied Piper of Hamelin tour. The information centre is also host to the Hamelin gift shop, and there are regular viewing of an award wining film about the Pied Piper's journey.</description>
+                    <description_source>https://www.hameln.de/de/entdecken-erleben/service-prospekte/hmt-und-stadtmarketing-verein/</description_source>
+                    <short_description>The start of the Pied Piper of Hamelin Tour.</short_description>
+                    <image>https://media-cdn.tripadvisor.com/media/photo-s/06/66/4a/9e/hameln-marketing-und.jpg</image>
+                    <image_alt>The start of the Pied Piper of Hamelin Tour.</image_alt>
+                    <map_icon>sight.png</map_icon>
+                </place_of_interest>
+
+                <place_of_interest P_ID="17" category="Cathedral">
+                    <name> St. Bonifatius</name>
+                    <address>Münsterkirchhof 7, 31785 Hameln, Germany</address>
+                    <capacity>500</capacity>
+                    <latitude>52.10171225067989</latitude>
+                    <longitude>9.354196938940069</longitude>
+                    <website>https://www.muenster-hameln.de/startpage.html</website>
+                    <wiki>https://de.wikipedia.org/wiki/M%C3%BCnster_St._Bonifatius</wiki>
+                    <description>A 13th century gothic church dedicated to a German apostle. The church's most notable features are the stain glass windows and the bell tower that can be seen in the city centre of Hamelin.</description>
+                    <description_source>https://de.wikipedia.org/wiki/M%C3%BCnster_St._Bonifatius</description_source>
+                    <short_description>A 13th Century Gothic Church.</short_description>
+                    <image>https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Muensterkirche_Hameln.jpg/330px-Muensterkirche_Hameln.jpg</image>
+                    <image_alt>Minster St. Boniface from the southwest.</image_alt>
+                    <map_icon>cathedral.png</map_icon>
+                </place_of_interest>
+				
+				<place_of_interest P_ID="18" category="Cathedral">
+                    <name>Marktkirche Sankt Nicolai</name>
+                    <address>Emmernstraße 6, 31785 Hameln, Germany</address>
+                    <capacity>500</capacity>
+                    <latitude>52.10500478820929</latitude>
+                    <longitude>9.356951811954065</longitude>
+                    <website/>
+                    <wiki>https://de.wikipedia.org/wiki/Marktkirche_(Hameln)</wiki>
+                    <description>A church that lies in the centre of Hamelin. At different points during the year, the church hosts music concerts. The church also offers climbing tours to the top of the bell tower, which offers stunning views of Hamelin.</description>
+                    <description_source>https://de.wikipedia.org/wiki/Marktkirche_(Hameln)</description_source>
+                    <short_description>A church that lies in the centre of Hamelin.</short_description>
+                    <image>https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/234Hameln_KIrche.jpg/330px-234Hameln_KIrche.jpg</image>
+                    <image_alt>Marktkirche ( right next to the wedding house )</image_alt>
+                    <map_icon>cathedral.png</map_icon>
+                </place_of_interest>
+
+                <place_of_interest P_ID="19" category="Art Gallery">
+                    <name>Schauglasbläserei im Pulverturm</name>
+                    <address>Am Pulverturm 1, 31785 Hameln, Germany</address>
+                    <capacity/>
+                    <latitude>52.10671493803937</latitude>
+                    <longitude>9.3565059272967</longitude>
+                    <website>https://www.glasblaeserei-hameln.de/</website>
+                    <wiki/>
+                    <description>A glass museum and workshop, where visitors can go on guided tours of glass works of art. Visitors can also participate in glass blowing workshops, where visitors can learn and create glass works of art. </description>
+                    <description_source>https://www.hameln.de/de/entdecken-erleben/altstadt-und-weserbergland/altstadt-und-stadtgeschichte/schauglasblaeserei-im-pulverturm/</description_source>
+                    <short_description>A glass blowing museum.</short_description>
+                    <image>https://www.regi-on.de/_images/894-pulverturm-hameln.jpg</image>
+                    <image_alt>The Powder Tower, like the Haspelmath Tower, dates from the Middle Ages and was part of the fortification wall that surrounded the city of Hameln.</image_alt>
+                    <map_icon>art_gallery.png</map_icon>
+                </place_of_interest>
+
+                <place_of_interest P_ID="20" category="Statue">
+                    <name>Rattenfänger-Brunnen</name>
+                    <address>Rathauspl. 5, 31785 Hameln, Germany</address>
+                    <capacity/>
+                    <latitude>52.10630539010728</latitude>
+                    <longitude>9.360988383118439</longitude>
+                    <website/>
+                    <wiki>https://nds.wikipedia.org/wiki/De_R%C3%B6ttenfanger_vun_Hameln</wiki>
+                    <description>A Pied Piper statue in the middle of a fountain within the market square.</description>
+                    <description_source>https://nds.wikipedia.org/wiki/De_R%C3%B6ttenfanger_vun_Hameln</description_source>
+                    <short_description>A statue of the Pied Piper of Hamelin.</short_description>
+                    <image>https://upload.wikimedia.org/wikipedia/commons/f/fa/Pied_piper.jpg</image>
+                    <image_alt>Us öllstes image of the Röttenfanger is a watercolor ut 't Johr 1592. It is however blots' ne copy of a Glaasfinster what Augustin Moersperg in the Martkark tau Goslaer seihn hett.</image_alt>
+                    <map_icon>statue.png</map_icon>
+                </place_of_interest>
+
+            </places_of_interest>
+        </city>
+    </cities>
+</twinning>

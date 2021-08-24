@@ -1,0 +1,7 @@
+https://mapicons.mapsmarker.com/
+
+These are icons for the maps
+
+Colour: #743bbf
+
+Code for deciding which icon is in getter for icon in Place_Of_Interest class
