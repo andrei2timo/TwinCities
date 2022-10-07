@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="twinning">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="image"/>
+                <xs:element ref="description"/>
+                <xs:element ref="description_source"/>
+                <xs:element ref="cities"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="cities">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="city"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="city">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="name"/>
+                <xs:element ref="country"/>
+                <xs:element ref="country_code"/>
+                <xs:element ref="latitude"/>
+                <xs:element ref="longitude"/>
+                <xs:element ref="description"/>
+                <xs:element ref="description_source"/>
+                <xs:element ref="population"/>
+                <xs:element ref="area"/>
+                <xs:element ref="currency"/>
+                <xs:element ref="population_density"/>
+                <xs:element ref="website"/>
+                <xs:element ref="wiki"/>
+                <xs:element ref="google_maps"/>
+                <xs:element ref="image"/>
+                <xs:element ref="image_alt"/>
+                <xs:element ref="weather"/>
+                <xs:element ref="places_of_interest"/>
+            </xs:sequence>
+            <xs:attribute name="woeid" use="required" type="xs:integer"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="country" type="non_null_string"/>
+    <xs:element name="country_code">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:length value="3"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="population" type="xs:integer"/>
+    <xs:element name="area" type="xs:decimal"/>
+    <xs:element name="currency" type="non_null_string"/>
+    <xs:element name="population_density" type="xs:decimal"/>
+    <xs:element name="google_maps" type="non_null_URI"/>
+    <xs:element name="weather">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="current_weather"/>
+                <xs:element ref="forecast_weather"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="weather">
+        <xs:sequence>
+            <xs:element ref="temperature"/>
+            <xs:element ref="humidity"/>
+            <xs:element ref="wind_speed"/>
+            <xs:element ref="wind_direction"/>
+            <xs:element ref="icon"/>
+            <xs:element ref="description"/>
+            <xs:element ref="weather_time"/>
+            <xs:element ref="weather_saved"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="current_weather" type="weather"/>
+    <xs:element name="forecast_weather" type="weather"/>
+
+    <xs:element name="places_of_interest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="place_of_interest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="place_of_interest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="name"/>
+                <xs:element ref="address"/>
+                <xs:element ref="capacity"/>
+                <xs:element ref="latitude"/>
+                <xs:element ref="longitude"/>
+                <xs:element ref="website"/>
+                <xs:element ref="wiki"/>
+                <xs:element ref="description"/>
+                <xs:element ref="description_source"/>
+                <xs:element ref="short_description"/>
+                <xs:element ref="image"/>
+                <xs:element ref="image_alt"/>
+                <xs:element ref="map_icon"/>
+            </xs:sequence>
+            <xs:attribute name="category" use="required"/>
+            <xs:attribute name="P_ID" use="required" type="xs:integer"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="non_null_string">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="1"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="non_null_URI">
+        <xs:restriction base="xs:anyURI">
+            <xs:minLength value="1"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:element name="address" type="non_null_string"/>
+    <xs:element name="capacity" type="xs:string"/>
+    <xs:element name="short_description" type="non_null_string"/>
+    <xs:element name="map_icon" type="xs:NCName"/>
+    <xs:element name="image" type="xs:anyURI"/>
+    <xs:element name="description" type="non_null_string"/>
+    <xs:element name="description_source" type="non_null_URI"/>
+    <xs:element name="name" type="non_null_string"/>
+    <xs:element name="latitude" type="xs:decimal"/>
+    <xs:element name="longitude" type="xs:decimal"/>
+    <xs:element name="website" type="xs:anyURI"/>
+    <xs:element name="wiki" type="xs:anyURI"/>
+    <xs:element name="image_alt" type="non_null_string"/>
+    <xs:element name="temperature" type="xs:decimal"/>
+    <xs:element name="humidity" type="xs:integer"/>
+    <xs:element name="wind_speed" type="xs:decimal"/>
+    <xs:element name="wind_direction" type="xs:decimal"/>
+    <xs:element name="icon" type="non_null_string"/>
+    <xs:element name="weather_time" type="xs:integer"/>
+    <xs:element name="weather_saved" type="xs:integer"/>
+</xs:schema>
