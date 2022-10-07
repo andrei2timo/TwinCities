@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="dsa_config">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="environment"/>
+                <xs:element ref="addressing"/>
+                <xs:element ref="map_api_key"/>
+                <xs:element ref="weather_api_key"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="environment">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="dev" minOccurs="0"/>
+                <xs:element ref="live"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="dev" type="connection"/>
+    <xs:element name="live" type="connection"/>
+    <xs:complexType name="connection">
+        <xs:sequence>
+            <xs:element ref="base_url"/>
+            <xs:element ref="base_path"/>
+            <xs:element ref="url_end"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="addressing">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="get_city"/>
+                <xs:element ref="get_place_of_interest"/>
+                <xs:element ref="images_address"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="get_city" type="xs:string"/>
+    <xs:element name="get_place_of_interest" type="xs:string"/>
+    <xs:element name="images_address" type="xs:string"/>
+    <xs:element name="map_api_key" type="xs:string"/>
+    <xs:element name="weather_api_key" type="xs:string"/>
+    <xs:element name="base_url" type="xs:anyURI"/>
+    <xs:element name="base_path" type="xs:anyURI"/>
+    <xs:element name="url_end" type="xs:string"/>
+</xs:schema>
