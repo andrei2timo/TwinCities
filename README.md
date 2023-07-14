@@ -7,7 +7,7 @@ Twin Cities is a web application that helps users explore and discover various a
 ## Features
 
 
-![TwinCities Attractions]([https://raw.githubusercontent.com/andrei2timo/TwinCities/main/DSA-TwinCities/images/twin-cities-important-pins.PNG])
+![TwinCities Attractions](DSA-TwinCities/images/twin-cities-important-pins.PNG)
 
 - **Attractions**: Browse through a wide range of attractions in the Twin Cities area, including restaurants, parks, museums, theaters, and more. Get detailed information about each attraction, such as location, hours of operation, ratings, and reviews.
 
