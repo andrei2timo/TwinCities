@@ -1,6 +1,6 @@
 # TwinCities web application
 
-![TwinCities Logo](./images/twincities_logo.png)
+![TwinCities Logo](https://raw.githubusercontent.com/andrei2timo/TwinCities/main/DSA-TwinCities/images/banner.png)
 
 TwinCities is a web application that helps users explore and discover various attractions, events, and places of interest in the Twin Cities area. Whether you're a local resident or a visitor, TwinCities provides you with information about the best restaurants, parks, museums, and more.
 
