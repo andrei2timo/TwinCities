@@ -1,8 +1,8 @@
-# TwinCities web application
+# Twin Cities web application
 
 ![TwinCities Logo](https://raw.githubusercontent.com/andrei2timo/TwinCities/main/DSA-TwinCities/images/banner.png)
 
-TwinCities is a web application that helps users explore and discover various attractions, events, and places of interest in the Twin Cities area. Whether you're a local resident or a visitor, TwinCities provides you with information about the best restaurants, parks, museums, and more.
+Twin Cities is a web application that helps users explore and discover various attractions, events, and places of interest in the Twin Cities area. Whether you're a local resident or a visitor, TwinCities provides you with information about the best restaurants, parks, museums, and more.
 
 ## Features
 
@@ -14,18 +14,12 @@ TwinCities is a web application that helps users explore and discover various at
 
 - **Search**: Use the search feature to find specific attractions or events based on keywords, categories, or locations. Filter the results to narrow down your search.
 
-## Screenshots
-
-![Attractions Page](./images/attractions_page.png)
-
-![Event Details](./images/event_details.png)
-
 ## Technologies Used
 
 - **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Python, Flask
+- **Backend**: Python, Javascript and Flask
 - **Database**: PostgreSQL
-- **APIs**: Google Maps API, Eventful API
+- **APIs**: Google Maps API, Eventful API and Twitter API
 
 ## Installation
 
